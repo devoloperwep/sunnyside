@@ -1,6 +1,16 @@
-$breakpoint-xs: 360px;     // Extra small devices (small phones)
-$breakpoint-sm: 576px;     // Small devices (phones)
-$breakpoint-md: 768px;     // Medium devices (tablets)
-$breakpoint-lg: 992px;     // Large devices (laptops)
-$breakpoint-xl: 1200px;    // Extra large devices (desktops)
-$breakpoint-xxl: 1400px;   // Super large screens (4K monitors)
+// font family
+$font-barlow: "Barlow", sans-serif;
+$font-fraunces: "Fraunces", sans-serif;
+
+// colors
+$color-white: #ffffff;
+$color-secondary: #5b636d;
+$color-gray: #808397;
+$color-primary: #24303e;
+$color-blue: #2c7566;
+$color-green: #458d7e;
+
+// font-size
+$font-sm: 1.6rem;
+$font-md: 1.8rem;
+$font-lg: 4rem;

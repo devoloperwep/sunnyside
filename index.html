@@ -4,16 +4,251 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Sunnyside</title>
     <link rel="stylesheet" href="./css/style.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- header -->
-    <header class="header"></header>
+    <nav class="respond hidden">
+      <ul class="respond__list">
+        <li class="respond__item">
+          <a href="#" class="respond__link">About</a>
+        </li>
+        <li class="respond__item">
+          <a href="#" class="respond__link">Services</a>
+        </li>
+        <li class="respond__item">
+          <a href="#" class="respond__link">Projects</a>
+        </li>
+        <li class="respond__item">
+          <a href="#" class="respond__btn header__btn">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
+    <header class="header">
+      <div class="header__container container">
+        <div class="header__head">
+          <img
+            src="./images/logo.svg"
+            alt=""
+            class="header__logo-img"
+            width="170"
+            height="33"
+          />
+          <nav class="sitenav">
+            <ul class="sitenav__list">
+              <li class="sitenav__item">
+                <a href="#" class="sitenav__link">About</a>
+              </li>
+              <li class="sitenav__item">
+                <a href="#" class="sitenav__link"> Services</a>
+              </li>
+              <li class="sitenav__item">
+                <a href="#" class="sitenav__link">Projects</a>
+              </li>
+            </ul>
+            <a class="header__btn" href="#">CONTACT</a>
+          </nav>
+          <img
+            class="header__menu"
+            width="24"
+            height="18"
+            src="./images/icon-hamburger.svg"
+            alt=""
+          />
+        </div>
+        <h1 class="header__title">We are creatives</h1>
+        <a href="#">
+          <img
+            src="./images/icon-arrow-down.svg"
+            alt=""
+            width="30"
+            height="107"
+            class="header__arrow"
+          />
+        </a>
+      </div>
+    </header>
     <main class="main">
-      <div class="content">hello</div>
+      <!-- Brends -->
+      <section class="brend">
+        <div class="brend__about">
+          <h2 class="brend__title">Transform your brand</h2>
+          <p class="brend__description">
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <a href="#" class="brend__btn"
+            >LEARN MORE <span class="brend__mark"></span
+          ></a>
+        </div>
+        <img
+          src="./images/desktop/image-transform.jpg"
+          alt="image"
+          class="brend__img order1"
+        />
+      </section>
+      <section class="brend brend-2">
+        <div class="brend__about">
+          <h2 class="brend__title">Stand out to the right audience</h2>
+          <p class="brend__description">
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <a href="#" class="brend__btn"
+            >LEARN MORE <span class="brend__mark"></span
+          ></a>
+        </div>
+        <img
+          src="./images/desktop/image-stand-out.jpg"
+          alt="image"
+          class="brend__img order-1"
+        />
+      </section>
+      <!-- Fruits -->
+      <section class="fruit">
+        <div class="fruit__graphic">
+          <h3 class="fruit__title">Graphic Design</h3>
+          <p class="fruit__description">
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential clients’
+            attention.
+          </p>
+        </div>
+        <div class="fruit__photography">
+          <h3 class="fruit__title">Graphic Design</h3>
+          <p class="fruit__description">
+            Increase your credibility by getting the most stunning, high-quality
+            photos that improve your business image.
+          </p>
+        </div>
+      </section>
+      <!-- Clients -->
+      <section class="client">
+        <div class="client__container container">
+          <h1 class="client__title">CLIENT TESTIMONIALS</h1>
+          <ul class="client__list">
+            <li class="client__item">
+              <img
+                src="./images/image-emily.jpg"
+                alt=""
+                width="72"
+                height="72"
+              />
+              <p class="client__description">
+                We put our trust in Sunnyside and they delivered, making sure
+                our needs were met and deadlines were always hit.
+              </p>
+              <h3 class="client__author">Emily R.</h3>
+              <p class="client__rank">Marketing Director</p>
+            </li>
+            <li class="client__item">
+              <img
+                src="./images/image-thomas.jpg"
+                alt=""
+                width="72"
+                height="72"
+              />
+              <p class="client__description">
+                Sunnyside’s enthusiasm coupled with their keen interest in our
+                brand’s success made it a satisfying and enjoyable experience.
+              </p>
+              <h3 class="client__author">Thomas S.</h3>
+              <p class="client__rank">Chief Operating Officer</p>
+            </li>
+            <li class="client__item">
+              <img
+                src="./images/image-jennie.jpg"
+                alt=""
+                width="72"
+                height="72"
+              />
+              <p class="client__description">
+                Incredible end result! Our sales increased over 400% when we
+                worked with Sunnyside. Highly recommended!
+              </p>
+              <h3 class="client__author">Jennie F.</h3>
+              <p class="client__rank">Business Owner</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Product -->
+      <section class="product">
+        <img
+          src="./images/desktop/image-gallery-milkbottles.jpg"
+          class="product__img"
+          alt="image"
+        />
+        <img
+          src="./images/desktop/image-gallery-orange.jpg"
+          class="product__img"
+          alt="image"
+        />
+        <img
+          src="./images/desktop/image-gallery-cone.jpg"
+          class="product__img"
+          alt="image"
+        />
+        <img
+          src="./images/desktop/image-gallery-sugarcubes.jpg"
+          class="product__img"
+          alt="image"
+        />
+      </section>
     </main>
-    <!-- footer -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <img
+        src="./images/blue-logo.svg"
+        width="170"
+        height="33"
+        alt=""
+        class="footer__logo"
+      />
+      <nav class="sitenav footer__nav">
+        <ul class="sitenav__list">
+          <li class="sitenav__item">
+            <a href="#" class="sitenav__link footer__link">About</a>
+          </li>
+          <li class="sitenav__item">
+            <a href="#" class="sitenav__link footer__link"> Services</a>
+          </li>
+          <li class="sitenav__item">
+            <a href="#" class="sitenav__link footer__link">Projects</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer__icons">
+        <a href="#">
+          <i class="fa-brands fa-square-facebook footer__icons-icon"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-instagram footer__icons-icon"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-twitter footer__icons-icon"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-pinterest footer__icons-icon"></i>
+        </a>
+      </div>
+    </footer>
+    <!-- script -->
+    <script>
+      const respond = document.querySelector(".respond");
+      const menu = document.querySelector(".header__menu");
+      menu.addEventListener("click", (e) => {
+        respond.classList.toggle("hidden");
+      });
+    </script>
   </body>
 </html>

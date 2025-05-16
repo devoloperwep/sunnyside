@@ -1,0 +1,41 @@
+.footer {
+  padding-top: 7.2rem;
+  padding-bottom: 7.2rem;
+  background-color: #90d4c6;
+  @include flex($justify: center, $direction: column, $align: center);
+  @include respond(sm) {
+    padding-top: 6.4rem;
+    padding-bottom: 8rem;
+  }
+  &__logo {
+    margin-bottom: $font-lg;
+  }
+  &__link {
+    color: #458d7e;
+    transition: 0.3s;
+    &:hover {
+      color: $color-white;
+    }
+  }
+}
+.footer__icons {
+  margin-top: 8.8rem;
+  @include flex($gap: 2.8rem);
+  &-icon {
+    font-size: 20px;
+    color: $color-blue;
+    transform: 0.3s;
+    &:hover {
+      color: $color-white;
+    }
+  }
+}
+.footer__nav {
+  @include flex;
+  ul {
+    text-align: center;
+    @include respond(sm) {
+      @include flex($gap: 2.8rem);
+    }
+  }
+}
